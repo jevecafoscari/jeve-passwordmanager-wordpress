@@ -8,7 +8,7 @@ La prima cifra reppresenta la possibilità di visualizzare e modificare gli uten
 
 *Esempio 1:* 
 * username: mariorossi@example.com
-* accessi: 10+
+* accessi: 10
 
 L'utente mariorossi@example.com accederà solo alla prima pagina.
 
