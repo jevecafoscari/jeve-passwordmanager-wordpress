@@ -5,11 +5,11 @@ I privilegi vengono gestiti grazie alla stringa binaria 'accessi' (i.e 001) cont
 **Caso JEVE:**
 Abbiamo due aree e quindi due cifre nella nostra stringa accessi. 
 La prima cifra reppresenta la possibilità di visualizzare e modificare gli utenti mentre la seconda si riferisce all'utente amministratore.
-* -> Esempio1: * 
+_Esempio1:_ 
 - username: mariorossi@example.com
 - accessi: 10
 L'utente mariorossi@example.com accederà solo alla prima pagina.
-* -> Esempio2: * 
+_Esempio2:_ 
 - username: tiziocaio@example.com
 - accessi: 11
 L'utente tiziocaio@example.com accederà a tutte le pagine.
