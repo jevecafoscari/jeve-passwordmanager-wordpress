@@ -5,6 +5,13 @@ session_start();
         $username = $_POST["username"];
         $password = $_POST["password"];
 
+        // SQL INJECTION 
+        $username = stripcslashes($username);
+        $password = stripcslashes($password);
+        
+        $username = mysqli_real_escape_string($conn, $username);
+        $password = mysqli_real_escape_string($conn, $password);
+
         if ($conn->connect_error) {
         die("Connessione fallita: " . $conn->connect_error);
         }
